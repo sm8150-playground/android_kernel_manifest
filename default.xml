@@ -14,9 +14,9 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
 
-  <!-- Sunny Kernel -->
-  <project path="kernel/msm-4.14" name="NetErnels/android_kernel_xiaomi_sunny" remote="github" revision="staging" >
-    <linkfile dest="build.config" src="build.config.sunny" />
+  <!-- vayu Kernel -->
+  <project path="kernel/msm-4.14" name="sm8150-playground/kernel_xiaomi_sm8150" remote="github" revision="sixteen" >
+    <linkfile dest="build.config" src="build.config.vayu" />
   </project>
 
   <!-- Eva GCC -->
